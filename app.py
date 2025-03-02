@@ -1,6 +1,6 @@
 import streamlit as st
 
-# CSS for improved UI with animations and a styled convert button
+# CSS for UI 
 st.markdown(
     """
     <style>
@@ -42,7 +42,7 @@ st.markdown(
 
 st.title("🔄 Unit Converter")
 
-# Conversion data with expanded unit options and modifications as requested
+# Conversion data 
 def get_units(conversion_type):
     conversions = {
         "Length": {
